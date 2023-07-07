@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
   # https://docs.vagrantup.com.
 
   # Every Vagrant development environment requires a box. You can search for
-  # boxes at https://vagrantcloud.com/search.
+  # boxes at https://vagrantcloud.com/search..
   config.vm.box = "generic/ubuntu2204"
   config.vm.define "Server01"
   # Disable automatic box update checking. If you disable this, then
