@@ -40,6 +40,6 @@ vagrant destrot <ID>
 ![File](./images/template.png)
 
 
-# RECURSOS****
+# **RECURSOS**
 
-[https://vagrant-intro.readthedocs.io/es/latest/destroy.html](https://)
+[https://vagrant-intro.readthedocs.io/es/latest/destroy.html](Docs oficial vagrant)
