@@ -1,9 +1,6 @@
 ### **Comandos Vagrant**
 
-Primeramente, instalar el paquete en el S.O correspondiente.
-
 ---
-
 
 * Inicializar y descargar imagen box :
 
@@ -27,6 +24,11 @@ vagrant init generic/ubuntu2204
 vagrant ssh
 ```
 
+* Buscar VMs creadas:
+
+
+  ```
+  ```
 
 
 # **Vagrant File estructura:**
