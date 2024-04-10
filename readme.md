@@ -10,5 +10,5 @@ Primeramente, instalar el paquete en el S.O correspondiente.
 * Ejecutar el init para generar el vagrant file
 
   ```vagrant init
-
+  vagrant init generic/ubuntu2204
   ```
