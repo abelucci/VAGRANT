@@ -42,4 +42,4 @@ vagrant destrot <ID>
 
 # **RECURSOS**
 
-[https://vagrant-intro.readthedocs.io/es/latest/destroy.html](Docs oficial vagrant)
+[Docs](https://vagrant-intro.readthedocs.io/es/latest/destroy.html)
