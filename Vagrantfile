@@ -9,11 +9,16 @@ Vagrant.configure("2") do |config|
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
-
+  config.vm.provider "virtualbox" do |v|
+    v.name = "server_eduit"
+  end
+  
   # Every Vagrant development environment requires a box. You can search for
-  # boxes at https://vagrantcloud.com/search..
+  # boxes at https://vagrantcloud.com/search.
   config.vm.box = "generic/ubuntu2204"
-  config.vm.define "Server01"
+
+  #name vm
+  config.vm.hostname = "servereduit"
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
